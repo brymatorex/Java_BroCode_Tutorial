@@ -9,7 +9,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        // username must be between 4-12 characters
+        // username must be between 4-12 characters;
         // username must not contain spaces or underscores
 
 
