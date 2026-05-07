@@ -5,6 +5,7 @@ public class Main {
 
     public static void main (String[] args){
 
+        // while loop in Java
 
 
         // while loop = repeat some code forever
@@ -18,6 +19,7 @@ public class Main {
             name = scanner.nextLine();
         }
         System.out.println("Hello " + name);
+
 
 
 
