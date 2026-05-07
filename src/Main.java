@@ -5,27 +5,26 @@ public class Main {
 
     public static void main (String[] args){
 
+
+
+        // while loop = repeat some code forever
+        //              while some condition remains true
+
         Scanner scanner = new Scanner(System.in);
+        String name = "";
 
-        // username must be between 4-12 characters
-        // username must not contain spaces or underscores
-
-
-        String username;
-
-        System.out.print("Enter your new name: ");
-        username = scanner.nextLine();
-
-        if (username.length() < 4 || username.length() > 12){
-            System.out.println("Username must be between 4-12 characters");
-        } else if (username.contains(" ") || username.contains("_") || username.contains("@")) {
-            System.out.println("Username must not contain special character");
-        } else {
-            System.out.println("Welcome " + username);
+        while (name.isEmpty()){
+            System.out.print("Enter your name: ");
+            name = scanner.nextLine();
         }
+        System.out.println("Hello " + name);
+
+
 
 
         scanner.close();
+
+
 
     }
 }
